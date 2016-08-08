@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1cc762efd9f1238ca53d768c7ae9c995",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "60fabf3dbdf86f0af5b0219868e07f8b",
+    "content-hash": "ceb118eba85a5b0d6f695e8387c620f0",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -786,6 +786,49 @@
                 "random"
             ],
             "time": "2016-03-18 20:34:03"
+        },
+        {
+            "name": "peinhu/aetherupload-laravel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peinhu/aetherupload-laravel.git",
+                "reference": "4bd04799c68ec2079e55f16da225d7e749028f05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peinhu/aetherupload-laravel/zipball/4bd04799c68ec2079e55f16da225d7e749028f05",
+                "reference": "4bd04799c68ec2079e55f16da225d7e749028f05",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Peinhu\\AetherUpload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Payne Hu",
+                    "email": "huyang110yahoo@gmail.com",
+                    "homepage": "http://www.2ndrenais.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Package for uploading big files",
+            "keywords": [
+                "file",
+                "laravel",
+                "upload"
+            ],
+            "time": "2016-07-13 04:04:14"
         },
         {
             "name": "psr/log",
@@ -3154,7 +3197,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "peinhu/aetherupload-laravel": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
